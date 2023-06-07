@@ -1,0 +1,158 @@
+/* Navbar */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: cadetblue;
+    border-radius: 10px;
+    }
+    
+    nav li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    }
+    
+    nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    }
+    
+    nav a:hover {
+    background-color: white;
+    color: cadetblue;
+    }
+    
+    /* Footer */
+    footer {
+    position: fixed;
+    color: white;
+    padding: 10px 40%;
+    bottom: 0;
+    text-align: center;
+    background-color: cadetblue;
+    }
+    
+    /* Background main page */
+    #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    }
+    
+    /* Classes */
+    .bgClasses {
+    background-color: #f5f5f5;
+    }
+    
+    .headerMainC {
+    text-align: center;
+    font-weight: bold;
+    color: cadetblue;
+    }
+    
+    .tableClasse {
+    margin: 10px auto;
+    }
+    
+    .image-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    }
+    
+    .image-container:hover .text-overlay {
+    display: block;
+    }
+    
+    .text-overlay .para {
+    margin: 0;
+    max-width: 100%;
+    font-size: 18px;
+    background-color:rgb(47, 79, 79, 0.7);
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .image-container:hover .text-overlay p {
+    display: block;
+    }
+    
+    .text-overlay .para {
+    display: none;
+    }
+    
+    table {
+    border-collapse: collapse;
+    }
+    
+    td {
+    padding: 20px;
+    }
+    
+    .headerC {
+    color: cadetblue;
+    }
+    
+    .bodyBg {
+    background-image: url(/images/gym.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+    /* About */
+    .headerAb {
+    text-align: center;
+    color: cadetblue;
+    font-size: 36px;
+    margin-top: 40px;
+    }
+    
+    .aboutCont {
+    font-size: 20px;
+    color: #666666;
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+    opacity: 0.9;
+    }
+    
+    /* Schedule */
+    .schedule {
+    text-align: center;
+    padding: 30px;
+    }
+    
+    /* Personal Training */
+    select option {
+    margin: 40px;
+    background-color: cadetblue;
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    }
+    
+    /* Coaches */
+    .pCoach {
+    width: 300px;
+    }
